@@ -7,6 +7,7 @@ import sys
 from typing import Any, Callable, List, Optional
 
 import torch
+import torch.nn
 from composer.core import DataSpec
 from composer.datasets.utils import NormalizationFn, pil_image_collate
 from composer.utils import dist
