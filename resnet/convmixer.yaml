@@ -57,8 +57,8 @@ scheduler:
 loggers:
   progress_bar: {}
   wandb: # Uncomment and fill below arguments to use WandB logger
-    entity: keepsimpler # Name of WandB entity, usually username or organization name
-    project: convmixer_tiny_imagenet # Name of WandB project
+    entity: sunguoying # Name of WandB entity, usually username or organization name
+    project: convmixer # Name of WandB project
     group: # Name of WandB group
 
 # null for baseline or for recipe, either ["mild", "medium", "hot"] in order of increasing training time and accuracy
